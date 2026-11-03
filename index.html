@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Faqih Zayyan | Developer Portfolio</title>
+
+    <meta name="description" content="Personal portfolio of Faqih Zayyan">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tema.css">
+    <noscript>
+        <style>
+            #fz-loader { display: none !important; }
+            body.loading { overflow: auto !important; }
+            body.loading .hero-content > *,
+            body.loading .fz-id-scene { opacity: 1 !important; }
+        </style>
+    </noscript>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="loading">
+
+    <!-- LOADER / ANIMASI PEMBUKA -->
+    <div id="fz-loader" aria-hidden="true">
+        <div class="fz-loader-panel top"></div>
+        <div class="fz-loader-panel bottom"></div>
+        <div class="fz-loader-aurora"></div>
+
+        <div class="fz-loader-center">
+            <div class="fz-loader-ring">
+                <div class="fz-loader-mark">F<span>.</span>Z</div>
+            </div>
+            <p class="fz-loader-name">FAQIH ZAYYAN</p>
+            <p class="fz-loader-sub">Loading portfolio</p>
+            <div class="fz-loader-bar"><i id="fz-loader-fill"></i></div>
+            <span class="fz-loader-percent" id="fz-loader-percent">0%</span>
+        </div>
+    </div>
+
+    <!-- BACKGROUND -->
+    <div class="background-glow"></div>
+    <div class="background-grid"></div>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                F<span>.</span>Z
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button id="theme-toggle" class="theme-toggle"
+                aria-label="Ganti tema">
+                <i class="fas fa-sun"></i>
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+
+            <div class="hero-content reveal">
+
+                <div class="hero-badge">
+                    <span class="status-dot"></span>
+                    WELCOME TO MY DIGITAL WORLD
+                </div>
+
+               
+                 <p class="greeting">FAQIH ZAYYAN M</p>
+
+                     <h1>
+                      Welcome to
+                       <span>My Portfolio.</span>
+                     </h1>
+
+                     <h2>
+                      Faqih Zayyan
+                      <span> — Future Developer</span>
+                     </h2>
+
+                <p class="description">
+                    Saya Faqih Zayyan M selaku mahasiswa Teknik Informatika yang memiliki
+                    ketertarikan pada dunia teknologi, web development,
+                    dan desain digital. Saya terus mengeksplorasi ide,
+                    mempelajari teknologi baru, dan mengubah kreativitas
+                    menjadi sesuatu yang nyata melalui coding.
+                </p>
+
+                <!-- DIGITAL CLOCK -->
+                <div class="clock">
+                    <div class="clock-icon">
+                        <i class="far fa-clock"></i>
+                    </div>
+
+                    <div>
+                        <span>LOCAL TIME — INDONESIA</span>
+                        <strong id="clock">00:00:00</strong>
+                        <small id="date"></small>
+                    </div>
+                </div>
+
+                <!-- BUTTON -->
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary">
+                        Explore My Work
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#contact" class="btn secondary">
+                        Let's Talk
+                    </a>
+
+                </div>
+
+                <!-- SOCIAL -->
+                <div class="social-links">
+
+                    <span>FIND ME ON</span>
+
+                    <a href="https://www.instagram.com/faqih.zyyn/"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/faqihzayyan"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@fqihzyyn_"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+           
+
+<!-- FUTURISTIC HANGING ID CARD -->
+<div class="hero-image reveal">
+
+    <div class="fz-id-scene">
+
+        <!-- TALI GANTUNGAN -->
+        <div class="fz-lanyard">
+            <div class="fz-lanyard-text">FZ • DEVELOPER • FZ</div>
+        </div>
+
+        <!-- PENGAIT BESI -->
+        <div class="fz-metal-clip"></div>
+        <div class="fz-metal-ring"></div>
+
+        <!-- KARTU ID -->
+        <div class="fz-id-card">
+
+            <div class="fz-card-top">
+                <span class="fz-junior">INFORMATICS</span>
+                <span class="fz-card-logo">FZ.</span>
+            </div>
+
+            <div class="fz-card-title">
+                DEVELOPER
+            </div>
+
+            <!-- FOTO PROFIL -->
+          <div class="fz-portrait">
+    <img
+        src="IMG-20261103-WA0003.jpg"
+        alt="Foto Faqih Zayyan"
+    >
+
+                <div class="fz-photo-name">
+                  <span>MY DIGITAL IDENTITY</span>
+                <h2>FAQIH ZAYYAN</h2>
+                </div>
+
+            </div>
+
+            <!-- TULISAN SAMPING -->
+            <div class="fz-side-text">
+                INFORMATICS ENGINEERING
+            </div>
+
+            <!-- BAGIAN BAWAH KARTU -->
+            <div class="fz-card-bottom">
+                <div>
+                    <strong>PORTFOLIO</strong>
+                    <span>CREATIVE MIND / FUTURE DEVELOPER</span>
+                </div>
+
+                <div class="fz-card-symbol">✦</div>
+            </div>
+
+            <div class="fz-card-shine"></div>
+
+        </div>
+
+        <!-- CAHAYA DEKORASI -->
+        <div class="fz-glow-circle"></div>
+
+    </div>
+
+    <div class="photo-caption">
+        <span>01</span>
+        CREATIVE / TECHNOLOGY / INNOVATION
+    </div>
+
+</div>
+
+
+
+        </section>
+
+
+        <!-- DIVIDER -->
+        <div class="section-divider"></div>
+
+
+        <!-- ABOUT -->
+        <section class="section reveal" id="about">
+
+            <p class="section-label">
+                <span>01 /</span> GET TO KNOW ME
+            </p>
+
+            <h2 class="section-title">
+                About <span>Me.</span>
+            </h2>
+
+            <div class="about-card">
+
+                <div class="about-heading">
+                    <span class="about-symbol">✦</span>
+
+                    <h3>
+                        Turning curiosity into creativity.
+                    </h3>
+                </div>
+
+                <p>
+                    Halo! Saya Faqih Zayyan M, mahasiswa Teknik Informatika
+                    Universitas Aisyah Pringsewu. Saat ini saya sedang
+                    mempelajari dunia pemrograman, khususnya pengembangan
+                    website. Saya memiliki semangat untuk terus belajar,
+                    mencoba hal baru, dan meningkatkan kemampuan di bidang
+                    teknologi. Saya percaya bahwa proses belajar dan
+                    konsistensi merupakan bagian penting untuk menjadi
+                    developer yang lebih baik.
+                </p>
+
+                <div class="about-info">
+
+                    <div>
+                        <span>FULL NAME</span>
+                        <strong>Faqih Zayyan</strong>
+                    </div>
+
+                    <div>
+                        <span>FIELD</span>
+                        <strong>Informatics Engineering</strong>
+                    </div>
+
+                    <div>
+                        <span>UNIVERSITY</span>
+                        <strong>Universitas Aisyah Pringsewu</strong>
+                    </div>
+
+                    <div>
+                        <span>EMAIL</span>
+                        <strong>faqihmas16@gmail.com</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION, EXPERIENCE, AWARDS -->
+        <section class="section reveal" id="journey">
+
+            <h3 class="journey-title">Education</h3>
+
+            <div class="journey-card">
+                <div class="journey-logo">
+                    <img src="IMG-20261103-WA0063.jpg" alt="IMG-20261103-WA0063">
+                </div>
+                <div class="journey-info">
+                    <h4>Universitas Aisyah Pringsewu</h4>
+                    <p>Teknik Informatika</p>
+                    <span>2026</span>
+                </div>
+            </div>
+
+            <div class="journey-card">
+                <div class="journey-logo">
+                    <img src="IMG-20261103-WA0064.jpg" alt="IMG-20261103-WA0064">
+                </div>
+                <div class="journey-info">
+                    <h4>SMK Muhammadiyah 01 Pringsewu</h4>
+                    <p>Sekolah Menengah</p>
+                    <span>2023- 2026</span>
+                </div>
+            </div>
+
+            <h3 class="journey-title">Experience</h3>
+
+            <div class="journey-card">
+                <div class="journey-logo">
+                    <img src="IMG-20261103-WA0059.jpg" alt="IMG-20261103-WA0059">
+                </div>
+                <div class="journey-info">
+                    <h4>Kelas A</h4>
+                    <p>Ketua Kelas Dan Wakil Ketua Angkatan Teknik Informatika</p>
+                </div>
+            </div>
+
+            <div class="journey-card journey-awards">
+                <div class="journey-logo">
+                    <img src="IMG-20261103-WA0062.jpg" alt="IMG-20261103-WA0062">
+                </div>
+                <div class="journey-info">
+                    <h4>AWARDS</h4>
+                    <p>Google Ambassador 2026 Indonesia</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="section reveal" id="skills">
+
+            <p class="section-label">
+                <span>02 /</span> MY EXPERTISE
+            </p>
+
+            <h2 class="section-title">
+                My <span>Skills.</span>
+            </h2>
+
+            <p class="section-description">
+                Technologies and tools that I explore and learn.
+            </p>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-number">01</div>
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Building structured and semantic web pages.</p>
+                    <div class="skill-line"></div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-number">02</div>
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Creating beautiful and responsive interfaces.</p>
+                    <div class="skill-line"></div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-number">03</div>
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Developing interactive web experiences.</p>
+                    <div class="skill-line"></div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-number">04</div>
+                    <div class="skill-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Turning creative ideas into digital products.</p>
+                    <div class="skill-line"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="section reveal" id="projects">
+
+            <p class="section-label">
+                <span>03 /</span> SELECTED WORKS
+            </p>
+
+            <h2 class="section-title">
+                My <span>Projects.</span>
+            </h2>
+
+            <p class="section-description">
+                A collection of experiments, learning experiences,
+                and creative explorations.
+            </p>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+
+                    <div class="project-top">
+                        <div class="project-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <span>01 / WEB</span>
+                    </div>
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        Website pribadi untuk memperkenalkan diri,
+                        menampilkan kemampuan, dan membangun identitas digital.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <div class="project-top">
+                        <div class="project-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <span>02 / DESIGN</span>
+                    </div>
+
+                    <h3>Website Experiment</h3>
+
+                    <p>
+                        Eksperimen membuat tampilan website modern
+                        dengan desain menarik dan pengalaman pengguna.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="project-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <div class="project-top">
+                        <div class="project-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <span>03 / FUTURE</span>
+                    </div>
+
+                    <h3>Coming Soon</h3>
+
+                    <p>
+                        Masih banyak ide kreatif, eksperimen,
+                        dan project baru yang sedang saya persiapkan.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>IN PROGRESS</span>
+                    </div>
+
+                    <div class="project-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MUSIC -->
+        <section class="section reveal" id="music">
+
+            <div class="music-card">
+
+                <h2 class="music-title">
+                    A little music.
+                    <span>A lot of ideas.</span>
+                </h2>
+
+                <p class="music-desc">
+                    Musik yang menemani proses saya mengubah ide
+                    menjadi sesuatu yang nyata. Intip playlist yang
+                    sedang sering saya putar.
+                </p>
+
+                <!-- GANTI link ini dengan link playlist Spotify Anda -->
+                <a class="music-btn"
+                   href="https://open.spotify.com/playlist/0P4Iy2p9dC96GTwNkweRnM"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-music"></i>
+                    Daily Rotation di Spotify
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <!-- GANTI GANTI_ID_PLAYLIST dengan ID playlist Anda -->
+                <div class="music-player">
+                    <iframe
+                        src="https://open.spotify.com/embed/playlist/0P4Iy2p9dC96GTwNkweRnM?utm_source=generator&theme=0"
+                        width="100%" height="352" frameborder="0"
+                        allowfullscreen
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"
+                        title="Spotify playlist">
+                    </iframe>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="section reveal" id="contact">
+
+            <p class="section-label">
+                <span>04 /</span> GET IN TOUCH
+            </p>
+
+            <div class="contact-card">
+
+                <p class="contact-overline">
+                    HAVE AN IDEA? LET'S CONNECT.
+                </p>
+
+                <h2>
+                    Let's create
+                    <span>something great.</span>
+                </h2>
+
+                <p>
+                    Punya pertanyaan, ide menarik, atau ingin berdiskusi?
+                    Jangan ragu untuk menghubungi saya.
+                    Saya selalu terbuka untuk belajar dan berkolaborasi.
+                </p>
+
+                <a class="btn primary"
+                   href="mailto:faqihmas16@gmail.com">
+                    Say Hello
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <a href="#home" class="footer-logo">
+            F<span>.</span>Z
+        </a>
+
+        <p>
+            © <span id="year"></span> Faqih Zayyan.
+            Designed with passion.
+        </p>
+
+        <a href="#home" class="back-top">
+            BACK TO TOP ↑
+        </a>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+    <!-- SCRIPT ANIMASI PEMBUKA -->
+    <script>
+    (function () {
+        var body = document.body;
+        var loader = document.getElementById('fz-loader');
+        var fill = document.getElementById('fz-loader-fill');
+        var pct = document.getElementById('fz-loader-percent');
+
+        if (!loader) {
+            body.classList.remove('loading');
+            body.classList.add('loaded');
+            return;
+        }
+
+        var MIN = 2200;          // durasi minimal loader (ms), ubah kalau mau lebih cepat/lambat
+        var start = performance.now();
+        var pageLoaded = document.readyState === 'complete';
+        var shown = 0;
+        var finished = false;
+
+        window.addEventListener('load', function () { pageLoaded = true; });
+
+        function finish() {
+            if (finished) return;
+            finished = true;
+            loader.cla
